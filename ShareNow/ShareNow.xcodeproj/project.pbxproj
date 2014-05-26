@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172ED4CA1933F059001A7BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED4C91933F059001A7BAF /* Foundation.framework */; };
+		172ED4CC1933F059001A7BAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED4CB1933F059001A7BAF /* CoreGraphics.framework */; };
+		172ED4CE1933F059001A7BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED4CD1933F059001A7BAF /* UIKit.framework */; };
+		172ED4D41933F059001A7BAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 172ED4D21933F059001A7BAF /* InfoPlist.strings */; };
+		172ED4D61933F059001A7BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 172ED4D51933F059001A7BAF /* main.m */; };
+		172ED4DA1933F059001A7BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 172ED4D91933F059001A7BAF /* AppDelegate.m */; };
+		172ED4DC1933F059001A7BAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172ED4DB1933F059001A7BAF /* Images.xcassets */; };
+		172ED4E31933F059001A7BAF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED4E21933F059001A7BAF /* XCTest.framework */; };
+		172ED4E41933F059001A7BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED4C91933F059001A7BAF /* Foundation.framework */; };
+		172ED4E51933F059001A7BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED4CD1933F059001A7BAF /* UIKit.framework */; };
+		172ED4ED1933F059001A7BAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 172ED4EB1933F059001A7BAF /* InfoPlist.strings */; };
+		172ED4EF1933F059001A7BAF /* ShareNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 172ED4EE1933F059001A7BAF /* ShareNowTests.m */; };
+		172ED4F91933F0DC001A7BAF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED4F81933F0DC001A7BAF /* CoreLocation.framework */; };
+		172ED5031933F436001A7BAF /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 172ED4FF1933F436001A7BAF /* AcousticModelEnglish.bundle */; };
+		172ED5041933F436001A7BAF /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 172ED5001933F436001A7BAF /* AcousticModelSpanish.bundle */; };
+		172ED5051933F436001A7BAF /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED5011933F436001A7BAF /* OpenEars.framework */; };
+		172ED5061933F436001A7BAF /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172ED5021933F436001A7BAF /* Slt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172ED4E61933F059001A7BAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172ED4BE1933F059001A7BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172ED4C51933F059001A7BAF;
+			remoteInfo = ShareNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172ED4C61933F059001A7BAF /* ShareNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172ED4C91933F059001A7BAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		172ED4CB1933F059001A7BAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		172ED4CD1933F059001A7BAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		172ED4D11933F059001A7BAF /* ShareNow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareNow-Info.plist"; sourceTree = "<group>"; };
+		172ED4D31933F059001A7BAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		172ED4D51933F059001A7BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		172ED4D71933F059001A7BAF /* ShareNow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareNow-Prefix.pch"; sourceTree = "<group>"; };
+		172ED4D81933F059001A7BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		172ED4D91933F059001A7BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		172ED4DB1933F059001A7BAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		172ED4E11933F059001A7BAF /* ShareNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172ED4E21933F059001A7BAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		172ED4EA1933F059001A7BAF /* ShareNowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareNowTests-Info.plist"; sourceTree = "<group>"; };
+		172ED4EC1933F059001A7BAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		172ED4EE1933F059001A7BAF /* ShareNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareNowTests.m; sourceTree = "<group>"; };
+		172ED4F81933F0DC001A7BAF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		172ED4FB1933F0F6001A7BAF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		172ED4FF1933F436001A7BAF /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		172ED5001933F436001A7BAF /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		172ED5011933F436001A7BAF /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		172ED5021933F436001A7BAF /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172ED4C31933F059001A7BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172ED5061933F436001A7BAF /* Slt.framework in Frameworks */,
+				172ED4F91933F0DC001A7BAF /* CoreLocation.framework in Frameworks */,
+				172ED4CC1933F059001A7BAF /* CoreGraphics.framework in Frameworks */,
+				172ED5051933F436001A7BAF /* OpenEars.framework in Frameworks */,
+				172ED4CE1933F059001A7BAF /* UIKit.framework in Frameworks */,
+				172ED4CA1933F059001A7BAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172ED4DE1933F059001A7BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172ED4E31933F059001A7BAF /* XCTest.framework in Frameworks */,
+				172ED4E51933F059001A7BAF /* UIKit.framework in Frameworks */,
+				172ED4E41933F059001A7BAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172ED4BD1933F059001A7BAF = {
+			isa = PBXGroup;
+			children = (
+				172ED4CF1933F059001A7BAF /* ShareNow */,
+				172ED4E81933F059001A7BAF /* ShareNowTests */,
+				172ED4C81933F059001A7BAF /* Frameworks */,
+				172ED4C71933F059001A7BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172ED4C71933F059001A7BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172ED4C61933F059001A7BAF /* ShareNow.app */,
+				172ED4E11933F059001A7BAF /* ShareNowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172ED4C81933F059001A7BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				172ED4FE1933F436001A7BAF /* Framework */,
+				172ED4FB1933F0F6001A7BAF /* SenTestingKit.framework */,
+				172ED4F81933F0DC001A7BAF /* CoreLocation.framework */,
+				172ED4C91933F059001A7BAF /* Foundation.framework */,
+				172ED4CB1933F059001A7BAF /* CoreGraphics.framework */,
+				172ED4CD1933F059001A7BAF /* UIKit.framework */,
+				172ED4E21933F059001A7BAF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		172ED4CF1933F059001A7BAF /* ShareNow */ = {
+			isa = PBXGroup;
+			children = (
+				172ED4D81933F059001A7BAF /* AppDelegate.h */,
+				172ED4D91933F059001A7BAF /* AppDelegate.m */,
+				172ED4DB1933F059001A7BAF /* Images.xcassets */,
+				172ED4D01933F059001A7BAF /* Supporting Files */,
+			);
+			path = ShareNow;
+			sourceTree = "<group>";
+		};
+		172ED4D01933F059001A7BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				172ED4D11933F059001A7BAF /* ShareNow-Info.plist */,
+				172ED4D21933F059001A7BAF /* InfoPlist.strings */,
+				172ED4D51933F059001A7BAF /* main.m */,
+				172ED4D71933F059001A7BAF /* ShareNow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		172ED4E81933F059001A7BAF /* ShareNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				172ED4EE1933F059001A7BAF /* ShareNowTests.m */,
+				172ED4E91933F059001A7BAF /* Supporting Files */,
+			);
+			path = ShareNowTests;
+			sourceTree = "<group>";
+		};
+		172ED4E91933F059001A7BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				172ED4EA1933F059001A7BAF /* ShareNowTests-Info.plist */,
+				172ED4EB1933F059001A7BAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		172ED4FE1933F436001A7BAF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				172ED4FF1933F436001A7BAF /* AcousticModelEnglish.bundle */,
+				172ED5001933F436001A7BAF /* AcousticModelSpanish.bundle */,
+				172ED5011933F436001A7BAF /* OpenEars.framework */,
+				172ED5021933F436001A7BAF /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172ED4C51933F059001A7BAF /* ShareNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172ED4F21933F059001A7BAF /* Build configuration list for PBXNativeTarget "ShareNow" */;
+			buildPhases = (
+				172ED4C21933F059001A7BAF /* Sources */,
+				172ED4C31933F059001A7BAF /* Frameworks */,
+				172ED4C41933F059001A7BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareNow;
+			productName = ShareNow;
+			productReference = 172ED4C61933F059001A7BAF /* ShareNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172ED4E01933F059001A7BAF /* ShareNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172ED4F51933F059001A7BAF /* Build configuration list for PBXNativeTarget "ShareNowTests" */;
+			buildPhases = (
+				172ED4DD1933F059001A7BAF /* Sources */,
+				172ED4DE1933F059001A7BAF /* Frameworks */,
+				172ED4DF1933F059001A7BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172ED4E71933F059001A7BAF /* PBXTargetDependency */,
+			);
+			name = ShareNowTests;
+			productName = ShareNowTests;
+			productReference = 172ED4E11933F059001A7BAF /* ShareNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172ED4BE1933F059001A7BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LiveDream;
+				TargetAttributes = {
+					172ED4E01933F059001A7BAF = {
+						TestTargetID = 172ED4C51933F059001A7BAF;
+					};
+				};
+			};
+			buildConfigurationList = 172ED4C11933F059001A7BAF /* Build configuration list for PBXProject "ShareNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 172ED4BD1933F059001A7BAF;
+			productRefGroup = 172ED4C71933F059001A7BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172ED4C51933F059001A7BAF /* ShareNow */,
+				172ED4E01933F059001A7BAF /* ShareNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172ED4C41933F059001A7BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172ED5031933F436001A7BAF /* AcousticModelEnglish.bundle in Resources */,
+				172ED5041933F436001A7BAF /* AcousticModelSpanish.bundle in Resources */,
+				172ED4D41933F059001A7BAF /* InfoPlist.strings in Resources */,
+				172ED4DC1933F059001A7BAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172ED4DF1933F059001A7BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172ED4ED1933F059001A7BAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172ED4C21933F059001A7BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172ED4DA1933F059001A7BAF /* AppDelegate.m in Sources */,
+				172ED4D61933F059001A7BAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172ED4DD1933F059001A7BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172ED4EF1933F059001A7BAF /* ShareNowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172ED4E71933F059001A7BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172ED4C51933F059001A7BAF /* ShareNow */;
+			targetProxy = 172ED4E61933F059001A7BAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		172ED4D21933F059001A7BAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172ED4D31933F059001A7BAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		172ED4EB1933F059001A7BAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172ED4EC1933F059001A7BAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172ED4F01933F059001A7BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		172ED4F11933F059001A7BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172ED4F31933F059001A7BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareNow/ShareNow-Prefix.pch";
+				INFOPLIST_FILE = "ShareNow/ShareNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		172ED4F41933F059001A7BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareNow/ShareNow-Prefix.pch";
+				INFOPLIST_FILE = "ShareNow/ShareNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		172ED4F61933F059001A7BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareNow.app/ShareNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareNow/ShareNow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShareNowTests/ShareNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		172ED4F71933F059001A7BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareNow.app/ShareNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareNow/ShareNow-Prefix.pch";
+				INFOPLIST_FILE = "ShareNowTests/ShareNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172ED4C11933F059001A7BAF /* Build configuration list for PBXProject "ShareNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172ED4F01933F059001A7BAF /* Debug */,
+				172ED4F11933F059001A7BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172ED4F21933F059001A7BAF /* Build configuration list for PBXNativeTarget "ShareNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172ED4F31933F059001A7BAF /* Debug */,
+				172ED4F41933F059001A7BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		172ED4F51933F059001A7BAF /* Build configuration list for PBXNativeTarget "ShareNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172ED4F61933F059001A7BAF /* Debug */,
+				172ED4F71933F059001A7BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172ED4BE1933F059001A7BAF /* Project object */;
+}
